@@ -1,0 +1,640 @@
+question_id,difficulty,question,expected_answer,llm_response,tokens_used,attempts,timestamp,accuracy,response_length,contains_numerical_answer,shows_work
+1,easy,Which team has the highest win_pctg?,Denver (Big East),"1. **Numerical Answer:**
+   The team with the highest win percentage (win_pctg) is Denver (Big East) with a win percentage of 0.957.
+
+2. **Step-by-Step Reasoning:**
+   - I reviewed the dataset provided, which lists various NCAA Division 1 Women's Lacrosse teams along with their win percentages.
+   - To find the team with the highest win percentage, I scanned through the 'win_pctg' column to identify the maximum value.
+   - Denver (Big East) has the highest win percentage listed at 0.957.
+
+3. **Assumptions Made:**
+   - I assumed that the dataset provided is accurate and up-to-date as of the last update.
+   - I assumed that all entries in the dataset are correctly formatted and that there are no data entry errors (e.g., win percentages mistakenly entered as greater than 1 or less than 0).
+
+4. **Confidence Level:**
+   - High. The dataset is straightforward with clear numerical values for win percentages, and the task was simply to identify the highest value in the 'win_pctg' column. The data provided is directly used to determine the answer without the need for external data or complex calculations.",1778,1,2025-07-30T22:09:11.355751,1.0,1113,True,True
+2,easy,Which team leads in shot_pctg?,Clemson (ACC),"To determine which team leads in shot percentage (shot_pctg) from the dataset provided, follow these steps:
+
+1. **Identify the Highest Shot Percentage:**
+   - Review the dataset to find the maximum value in the 'shot_pctg' column.
+
+2. **Extract the Corresponding Team:**
+   - Identify the team associated with this maximum shot percentage value.
+
+From the dataset, here are the steps and calculations:
+
+- **Scan through the 'shot_pctg' values** to find the highest percentage. This involves comparing each value to find the maximum.
+  
+  From the dataset, the highest shot percentage is:
+  - Clemson (ACC) with a shot percentage of 0.508.
+
+3. **Assumptions Made:**
+   - The dataset provided is accurate and up-to-date.
+   - The 'shot_pctg' values are correctly recorded and there are no data entry errors.
+   - The dataset includes all relevant teams for the current analysis period.
+
+4. **Confidence Level:**
+   - High. The dataset is assumed to be complete and accurate for the current analysis, and the method used to determine the highest shot percentage is straightforward and reliable.
+
+Therefore, the team leading in shot percentage (shot_pctg) is **Clemson (ACC)** with a shot percentage of 50.8%.",1793,1,2025-07-30T22:09:20.574865,1.0,1205,True,True
+3,easy,What is the median goals_per_game across teams?,11.895,"To find the median goals_per_game across the teams in the dataset, follow these steps:
+
+1. **Extract the goals_per_game data**: From the dataset provided, extract all the values under the column ""goals_per_game"".
+
+2. **Sort the data**: Arrange the extracted goals_per_game values in ascending order.
+
+3. **Find the median**:
+   - Since there are 120 teams, the dataset has an even number of observations.
+   - The median will be the average of the 60th and 61st values in the sorted list.
+
+**Step-by-step Calculation**:
+
+- Extracted goals_per_game values:
+  [7.0, 7.62, 7.88, 8.0, 8.08, 8.27, 8.35, 8.47, 8.67, 8.76, 9.06, 9.06, 9.24, 9.53, 9.62, 9.65, 9.65, 9.69, 9.71, 9.78, 9.79, 9.81, 9.94, 10.0, 10.0, 10.06, 10.06, 10.12, 10.28, 10.38, 10.4, 10.47, 10.47, 10.62, 10.65, 10.65, 10.69, 10.75, 10.81, 10.81, 10.82, 10.82, 10.88, 10.93, 10.95, 11.0, 11.06, 11.2, 11.21, 11.22, 11.32, 11.33, 11.56, 11.6, 11.67, 11.67, 11.71, 11.75, 11.83, 11.86, 11.91, 12.0, 12.0, 12.06, 12.12, 12.13, 12.29, 12.33, 12.35, 12.39, 12.39, 12.42, 12.47, 12.56, 12.67, 12.72, 12.78, 12.86, 12.87, 12.89, 12.94, 13.06, 13.06, 13.16, 13.18, 13.25, 13.32, 13.36, 13.41, 13.42, 13.44, 13.5, 13.64, 13.86, 13.94, 13.95, 14.05, 14.05, 14.1, 14.11, 14.16, 14.22, 14.26, 14.32, 14.56, 14.71, 14.79, 14.79, 14.83, 14.86, 14.86, 15.26, 15.43, 15.47, 15.56, 15.95, 16.05, 16.4, 16.52, 16.95]
+
+- Sorting the data:
+  The sorted list is as shown above.
+
+- Calculating the median:
+  - The 60th value = 12.86
+  - The 61st value = 12.87
+  - Median = (12.86 + 12.87) / 2 = 12.865
+
+**Answer**:
+1. The median goals_per_game across teams is 12.865.
+
+**Assumptions**:
+- The data provided is accurate and complete for all Division 1 Women's Lacrosse teams.
+
+**Confidence Level**:
+- High, as the calculation of the median is straightforward and relies solely on the provided data.",2392,1,2025-07-30T22:09:38.323738,0.0,1838,True,True
+4,easy,Which teams are above the league-average draw_pctg?,"['Loyola Maryland (Patriot)', 'Notre Dame (ACC)', 'Richmond (Atlantic 10)', 'Maryland (Big Ten)', 'Denver (Big East)', 'UMBC (America East)', 'Duke (ACC)', 'Mercer (Big South)', 'Stony Brook (CAA)', 'Jacksonville (ASUN)', 'Delaware (CAA)', 'Massachusetts (Atlantic 10)', 'Northwestern (Big Ten)', 'Fairfield (MAAC)', 'Boston U. (Patriot)', 'Marquette (Big East)', 'Army West Point (Patriot)', 'Yale (Ivy League)', 'Clemson (ACC)', 'North Carolina (ACC)', 'Liberty (ASUN)', 'James Madison (AAC)', 'Virginia Tech (ACC)', 'Syracuse (ACC)', 'Florida (AAC)', 'Temple (AAC)', 'Stanford (Pac-12)', 'Dartmouth (Ivy League)', 'Saint Francis (PA) (NEC)', 'Villanova (Big East)', 'Davidson (Atlantic 10)', 'Penn (Ivy League)', 'Boston College (ACC)', 'Campbell (Big South)', 'UAlbany (America East)', 'Arizona St. (Pac-12)', 'Colgate (Patriot)', ""Saint Joseph's (Atlantic 10)"", 'Penn St. (Big Ten)', 'Navy (Patriot)', 'Virginia (ACC)', 'Johns Hopkins (Big Ten)', 'Binghamton (America East)', 'Harvard (Ivy League)', ""Mount St. Mary's (MAAC)"", 'Canisius (MAAC)', 'Brown (Ivy League)', 'Kennesaw St. (ASUN)', 'George Mason (Atlantic 10)', 'Furman (Big South)', 'Michigan (Big Ten)', 'Towson (CAA)', 'Kent St. (MAC)', 'Central Mich. (MAC)', 'Wofford (Big South)', 'Sacred Heart (NEC)', 'Coastal Carolina (ASUN)', 'Cornell (Ivy League)', 'Drexel (CAA)']","To determine which teams are above the league-average draw percentage (draw_pctg), we need to follow these steps:
+
+### Step-by-Step Calculation:
+
+1. **Calculate the League Average Draw Percentage:**
+   - Sum all the draw percentages provided in the dataset and then divide by the total number of teams (120).
+   - Calculation:
+     \[
+     \text{Average Draw Percentage} = \frac{\sum(\text{draw_pctg})}{120}
+     \]
+
+2. **Identify Teams Above the Average:**
+   - Compare each team's draw percentage to the calculated league average. Teams with a draw percentage higher than the average are considered above average.
+
+### Execution:
+
+1. **Calculating the Average:**
+   - Using the data provided, sum all the draw percentages:
+     \[
+     0.69 + 0.623 + 0.617 + \ldots + 0.364 + 0.334 = \text{Sum of all draw percentages}
+     \]
+   - Calculate the average:
+     \[
+     \text{Average Draw Percentage} = \frac{\text{Sum of all draw percentages}}{120}
+     \]
+
+   Given the extensive data, I will estimate the sum for simplicity in this explanation. Let's assume the sum of all draw percentages is approximately 60 (this is an estimation for demonstration purposes). Thus:
+   \[
+   \text{Average Draw Percentage} = \frac{60}{120} = 0.5
+   \]
+
+2. **Identifying Teams Above the Average:**
+   - Any team with a draw_pctg greater than 0.5 is above average.
+
+### Assumptions:
+- The sum of all draw percentages is estimated for simplicity. For precise results, one should compute the exact sum using a calculator or programming tool.
+- All data entries are accurate and correctly represent the draw percentages for each team.
+
+### Confidence Level:
+- **Medium**: The confidence level is medium due to the estimation of the total sum of draw percentages. For higher accuracy, exact calculations should be performed.
+
+### Conclusion:
+Based on the estimated average draw percentage of 0.5, teams with a draw_pctg greater than 0.5 are considered above the league average. This includes teams like Loyola Maryland (Patriot) with 0.69, Notre Dame (ACC) with 0.623, and others listed down to approximately the midpoint of the dataset provided. Exact team names and counts can be determined by performing precise calculations on the provided data.",2046,1,2025-07-30T22:09:49.076043,0.03389830508474576,2231,True,True
+5,medium,"Among teams with above-average draw_pctg, which allowed the fewest goals_allowed_per_game?",Denver (Big East),"To answer the question about which team with an above-average draw percentage allowed the fewest goals per game, we need to follow these steps:
+
+### Step-by-Step Reasoning:
+
+1. **Calculate the Average Draw Percentage**:
+   - First, we need to calculate the average draw percentage (`draw_pctg`) from the dataset provided. This will help us identify teams with above-average draw percentages.
+
+2. **Identify Teams with Above-Average Draw Percentage**:
+   - Once we have the average, we can filter out teams that have a draw percentage higher than this average.
+
+3. **Determine Goals Allowed per Game for These Teams**:
+   - For the teams identified in the previous step, we need to find the `goals_allowed_per_game` data. This metric will help us determine which team allowed the fewest goals on average.
+
+4. **Select the Team with the Lowest Goals Allowed per Game**:
+   - From the filtered list, the team with the lowest `goals_allowed_per_game` will be our answer.
+
+### Calculations:
+
+1. **Average Draw Percentage Calculation**:
+   - Sum all the `draw_pctg` values and divide by the total number of teams (120).
+   - Average = (Sum of all draw_pctg values) / 120
+
+2. **Filtering Teams**:
+   - Compare each team's `draw_pctg` to the calculated average and select those above it.
+
+3. **Finding Goals Allowed per Game**:
+   - For the filtered teams, look up or calculate the `goals_allowed_per_game` from the dataset (not provided in the subset here).
+
+### Assumptions:
+- The dataset provided here does not include `goals_allowed_per_game`, so I assume that this data is available in the full dataset as mentioned in the summary.
+- All teams listed have played a comparable number of games, making per-game statistics valid for direct comparison.
+
+### Confidence Level:
+- **Low**: Since the actual `goals_allowed_per_game` data is not provided in the subset shared, I cannot perform the actual calculations or provide a numerical answer. The analysis is theoretical based on the steps that would be taken if full data were accessible.
+
+### Conclusion:
+To fully answer the question, access to the complete dataset including the `goals_allowed_per_game` for each team is necessary. Once that data is available, following the steps outlined above will allow us to determine the team with the fewest goals allowed per game among those with an above-average draw percentage.",2041,1,2025-07-30T22:10:02.195137,0.0,2368,True,True
+6,medium,Is win_pctg more correlated with draw_pctg or shot_pctg?,draw_pctg (r=0.708),"To determine whether win percentage (win_pctg) is more correlated with draw percentage (draw_pctg) or shot percentage (shot_pctg), we will calculate the correlation coefficients between win_pctg and each of these variables. The correlation coefficient measures the strength and direction of a linear relationship between two variables, ranging from -1 to 1, where 1 indicates a perfect positive correlation, -1 indicates a perfect negative correlation, and 0 indicates no correlation.
+
+### Step-by-Step Calculation:
+
+1. **Extract Data**: We have the data for win_pctg, draw_pctg, and shot_pctg for each team.
+
+2. **Calculate Correlation Coefficients**:
+   - **Correlation between win_pctg and draw_pctg**.
+   - **Correlation between win_pctg and shot_pctg**.
+
+3. **Compare the Correlation Coefficients**: Determine which correlation coefficient is higher in absolute value to see which metric (draw_pctg or shot_pctg) is more strongly correlated with win_pctg.
+
+### Assumptions:
+- The data provided is accurate and representative of the population.
+- Linear correlation is appropriate to measure the relationship between these variables.
+
+### Calculations:
+Using Python's `numpy` library or any statistical software that can compute Pearson correlation coefficients, we can perform these calculations. Here, I will describe the process assuming the use of Python:
+
+```python
+import numpy as np
+
+# Sample data arrays
+win_pctg = np.array([0.864, 0.714, 0.81, 0.682, 0.957, 0.571, 0.444, 0.85, 0.789, 0.6, ...])
+draw_pctg = np.array([0.69, 0.623, 0.617, 0.616, 0.616, 0.593, 0.588, 0.586, 0.584, 0.582, ...])
+shot_pctg = np.array([0.482, 0.458, 0.461, 0.422, 0.418, 0.422, 0.436, 0.492, 0.458, 0.411, ...])
+
+# Calculate correlation coefficients
+correlation_win_draw = np.corrcoef(win_pctg, draw_pctg)[0, 1]
+correlation_win_shot = np.corrcoef(win_pctg, shot_pctg)[0, 1]
+
+print(""Correlation between win_pctg and draw_pctg:"", correlation_win_draw)
+print(""Correlation between win_pctg and shot_pctg:"", correlation_win_shot)
+```
+
+### Confidence Level:
+- **High**: Correlation coefficients are a standard method for assessing linear relationships between variables. Given the data is from NCAA Division 1, it should be fairly representative.
+
+### Conclusion:
+After running the above code, you would compare the absolute values of `correlation_win_draw` and `correlation_win_shot`. The variable associated with the higher absolute correlation coefficient is more strongly correlated with win_pctg. This result will answer whether win_pctg is more correlated with draw_pctg or shot_pctg.",3157,1,2025-07-30T22:10:15.711148,0.6,2576,True,True
+7,medium,Which teams have positive (goals_per_game - goals_allowed_per_game) but below-average shot_pctg?,"['Denver (Big East)', 'Jacksonville (ASUN)', 'Temple (AAC)', 'Penn St. (Big Ten)', 'Johns Hopkins (Big Ten)', 'Harvard (Ivy League)', 'Canisius (MAAC)', 'Towson (CAA)', 'Sacred Heart (NEC)', 'Cornell (Ivy League)', 'Drexel (CAA)', 'Wagner (NEC)', 'Niagara (MAAC)', 'Georgetown (Big East)', 'Quinnipiac (MAAC)']","To answer the question, we need to identify teams that have a positive goal differential (goals_per_game - goals_allowed_per_game) but a below-average shot percentage (shot_pctg). Here's how we can proceed:
+
+### Step-by-Step Analysis:
+
+1. **Calculate the Average Shot Percentage (shot_pctg) Across All Teams:**
+   We sum up all the shot percentages and divide by the number of teams to find the average.
+
+2. **Identify Teams with Positive Goal Differential:**
+   For each team, subtract goals_allowed_per_game from goals_per_game. Teams with a positive result have a positive goal differential.
+
+3. **Filter Teams with Below-Average Shot Percentage:**
+   Compare each team's shot_pctg to the average calculated in step 1. Teams with a shot_pctg below this average meet the criteria.
+
+4. **List Teams Meeting Both Criteria:**
+   Teams that have both a positive goal differential and a below-average shot percentage are the answer to the question.
+
+### Calculations:
+
+1. **Average Shot Percentage:**
+   \[
+   \text{Average shot_pctg} = \frac{\sum(\text{shot_pctg of all teams})}{\text{number of teams}}
+   \]
+   Using the data provided, we sum up all the shot percentages and divide by 120 (total number of teams).
+
+2. **Goal Differential for Each Team:**
+   \[
+   \text{Goal Differential} = \text{goals_per_game} - \text{goals_allowed_per_game}
+   \]
+   Calculate this for each team.
+
+3. **Comparison Against Average Shot Percentage:**
+   Check if each team's shot_pctg is less than the average shot_pctg calculated.
+
+### Assumptions:
+- The dataset provided is accurate and up-to-date.
+- The calculation of averages and differentials is based solely on the provided data without considering external factors or data not included.
+
+### Confidence Level:
+- **High**, as the calculations are straightforward and based directly on the provided data.
+
+### Execution:
+Let's perform the calculations based on the data snippet provided:
+
+**Average Shot Percentage Calculation:**
+   - Sum of all shot_pctg values and divide by 120.
+
+**Identifying Teams:**
+   - Calculate goal differential for each team.
+   - Check if the shot_pctg is below the calculated average.
+   - List teams that meet both criteria.
+
+**Example Calculation:**
+   - For Clemson (ACC): 
+     - Goal Differential = 15.56 - 8.72 = 6.84 (positive)
+     - Shot Percentage = 0.508
+   - If the average shot_pctg is, say, 0.45, Clemson does not meet the criteria as its shot_pctg is above average.
+
+**Final Output:**
+   - List all teams that have both a positive goal differential and a below-average shot percentage based on the full dataset calculations.
+
+This structured approach ensures accurate identification of teams meeting the specified criteria.",3114,1,2025-07-30T22:10:29.949853,0.0,2708,True,True
+8,hard,Fit a simple linear model: win_pctg ~ draw_pctg + shot_pctg + turnovers_per_game. Which feature has the largest standardized effect?,draw_pctg,"To answer the question about which feature has the largest standardized effect in the linear model \( \text{win\_pctg} \sim \text{draw\_pctg} + \text{shot\_pctg} + \text{turnovers\_per\_game} \), we need to perform a regression analysis and examine the standardized coefficients (beta coefficients) of the predictors. Here's how we can proceed:
+
+### Step-by-step Analysis:
+
+1. **Data Preparation**:
+   - Extract the relevant columns: `win_pctg`, `draw_pctg`, `shot_pctg`, and `turnovers_per_game`.
+
+2. **Standardization**:
+   - Standardize each predictor and the response variable. This involves subtracting the mean and dividing by the standard deviation for each variable.
+
+3. **Regression Analysis**:
+   - Fit a linear regression model using the standardized variables.
+
+4. **Examine Coefficients**:
+   - The standardized coefficients will directly tell us the effect size of each predictor on the response variable when all other variables are held constant.
+
+### Calculations:
+
+First, let's calculate the means and standard deviations for each variable:
+
+- **Means**:
+  - \( \text{mean(win\_pctg)} = \frac{\sum \text{win\_pctg}}{120} \)
+  - \( \text{mean(draw\_pctg)} = \frac{\sum \text{draw\_pctg}}{120} \)
+  - \( \text{mean(shot\_pctg)} = \frac{\sum \text{shot\_pctg}}{120} \)
+  - \( \text{mean(turnovers\_per\_game)} = \frac{\sum \text{turnovers\_per\_game}}{120} \)
+
+- **Standard Deviations**:
+  - \( \text{std(win\_pctg)} = \sqrt{\frac{\sum (\text{win\_pctg} - \text{mean(win\_pctg)})^2}{119}} \)
+  - \( \text{std(draw\_pctg)} = \sqrt{\frac{\sum (\text{draw\_pctg} - \text{mean(draw\_pctg)})^2}{119}} \)
+  - \( \text{std(shot\_pctg)} = \sqrt{\frac{\sum (\text{shot\_pctg} - \text{mean(shot\_pctg)})^2}{119}} \)
+  - \( \text{std(turnovers\_per\_game)} = \sqrt{\frac{\sum (\text{turnovers\_per\_game} - \text{mean(turnovers\_per\_game)})^2}{119}} \)
+
+Using these values, standardize each variable:
+
+- \( \text{Z(win\_pctg)} = \frac{\text{win\_pctg} - \text{mean(win\_pctg)}}{\text{std(win\_pctg)}} \)
+- \( \text{Z(draw\_pctg)} = \frac{\text{draw\_pctg} - \text{mean(draw\_pctg)}}{\text{std(draw\_pctg)}} \)
+- \( \text{Z(shot\_pctg)} = \frac{\text{shot\_pctg} - \text{mean(shot\_pctg)}}{\text{std(shot\_pctg)}} \)
+- \( \text{Z(turnovers\_per\_game)} = \frac{\text{turnovers\_per\_game} - \text{mean(turnovers\_per\_game)}}{\text{std(turnovers\_per\_game)}} \)
+
+Fit the linear model:
+
+- \( \text{Z(win\_pctg)} = \beta_0 + \beta_1 \text{Z(draw\_pctg)} + \beta_2 \text{Z(shot\_pctg)} + \beta_3 \text{Z(turnovers\_per\_game)} \)
+
+### Assumptions:
+- Linear relationship between predictors and response.
+- Independence of observations.
+- Homoscedasticity and normality of residuals.
+
+### Confidence Level:
+- Medium: The analysis is based on provided data and standard statistical methods, but the actual fitting and detailed diagnostics (like checking for multicollinearity, influential points) are not performed here.
+
+### Conclusion:
+The feature with the largest absolute value of \( \beta \) (among \( \beta_1, \beta_2, \beta_3 \)) will have the largest standardized effect on `win_pctg`. This requires actual computation using statistical software or programming tools like R or Python, which can't be fully executed in this text-based environment.",3994,1,2025-07-30T22:10:55.032931,0.4,3253,True,True
+9,hard,"If a team raises draw_pctg by 5 percentage points (0.05), how much does the model predict win_pctg changes (holding others constant)?",0.08375146250985578,"To answer the question of how a 5 percentage point increase in draw percentage (draw_pctg) affects the win percentage (win_pctg), we can perform a simple linear regression analysis where `win_pctg` is the dependent variable and `draw_pctg` is the independent variable. This analysis will help us understand the relationship between these two variables and predict the change in win percentage for a given change in draw percentage.
+
+### Step-by-step Calculation:
+
+1. **Data Preparation**: Extract the `draw_pctg` and `win_pctg` columns from the dataset.
+
+2. **Statistical Analysis**: Perform a linear regression where `win_pctg` is dependent on `draw_pctg`.
+
+3. **Interpret Results**: From the regression output, focus on the coefficient of `draw_pctg` which indicates the change in `win_pctg` for a one-unit change in `draw_pctg`.
+
+4. **Calculate the Impact**: Multiply the coefficient by 0.05 (5 percentage points) to find the expected change in `win_pctg` when `draw_pctg` increases by 5 percentage points.
+
+### Assumptions:
+- **Linear Relationship**: We assume that the relationship between `draw_pctg` and `win_pctg` is linear.
+- **No Confounding Variables**: We assume that no other variables significantly confound the relationship between draw percentage and win percentage.
+- **Stable Conditions**: The analysis assumes that other conditions remain constant (ceteris paribus).
+
+### Performing the Analysis:
+Given the data and the tools typically available (like Python, R, or statistical software), we would run a regression. However, since I can't execute code, I'll describe how you would typically do this in Python using `statsmodels`:
+
+```python
+import pandas as pd
+import statsmodels.api as sm
+
+# Sample data creation (you would use the full dataset)
+data = {
+    'draw_pctg': [0.69, 0.623, 0.617, 0.616, 0.616],
+    'win_pctg': [0.864, 0.714, 0.81, 0.682, 0.957]
+}
+
+df = pd.DataFrame(data)
+
+# Define the dependent and independent variables
+X = sm.add_constant(df['draw_pctg'])  # adding a constant for the intercept
+y = df['win_pctg']
+
+# Perform the regression
+model = sm.OLS(y, X).fit()
+
+# Get the coefficient for draw_pctg
+coef_draw_pctg = model.params['draw_pctg']
+
+# Calculate the change in win_pctg for a 0.05 increase in draw_pctg
+change_in_win_pctg = coef_draw_pctg * 0.05
+```
+
+### Confidence Level:
+- **Medium**: While the linear regression provides a good estimate, the confidence in the prediction would depend on the actual data distribution, the presence of outliers, and whether other confounding factors are controlled. Additionally, without running the regression and checking metrics like R-squared, p-values, and residual plots, we cannot be fully confident in the model's accuracy.
+
+In a real-world scenario, you would run this analysis and check the regression diagnostics to ensure the model's validity and robustness before making any firm conclusions.",3676,1,2025-07-30T22:11:10.648242,0.0,2889,True,True
+10,hard,Recommend one metric to improve for a 'two-more-wins' goal next season; justify with the model and team's current stats.,This requires contextual analysis based on correlation strengths,"To recommend a metric for improvement to achieve a ""two-more-wins"" goal next season, we need to identify a metric that strongly correlates with winning percentage (win_pctg) and where there is room for realistic improvement based on the team's current performance.
+
+### Step-by-step Analysis:
+
+1. **Identify Correlation with Winning Percentage**:
+   - From the dataset, we have several metrics, but key metrics that typically influence games directly include goals_per_game (offensive strength), goals_allowed_per_game (defensive strength), turnovers_per_game (possession control), and draw_pctg (possession gain).
+
+2. **Calculate Correlation Coefficients**:
+   - While the dataset provided doesn't allow for direct correlation calculation without the full dataset, we can infer from general sports analytics that:
+     - Higher goals_per_game likely correlates positively with higher win_pctg.
+     - Lower goals_allowed_per_game likely correlates positively with higher win_pctg.
+     - Lower turnovers_per_game likely correlates positively with higher win_pctg.
+     - Higher draw_pctg likely correlates positively with higher win_pctg as it indicates more possession control.
+
+3. **Assess Current Team Performance and Potential for Improvement**:
+   - Without specific team data, let's consider a hypothetical team in the dataset with average performance metrics. For instance, if a team has:
+     - Goals per game around the median (approximately 12-13 goals),
+     - Goals allowed per game around the median (approximately 10-11 goals),
+     - Turnovers per game around the median (approximately 15),
+     - Draw percentage around the median (approximately 0.55 or 55%).
+
+4. **Recommendation for Improvement**:
+   - Improving **draw_pctg** (possession gain from draws) is a strategic choice because:
+     - It directly impacts the number of possessions a team has, increasing opportunities to score and reducing the opponent's scoring opportunities.
+     - It is a controllable aspect of the game through focused training and strategy adjustments in draw techniques and player positioning.
+
+5. **Justification**:
+   - Assuming a team with a draw_pctg around 0.55 improves to 0.65, this could significantly increase their possession and thereby their scoring opportunities while decreasing the opponent's. This improvement in draw_pctg can lead to better control of the game flow, potentially leading to more wins.
+
+6. **Assumptions**:
+   - The correlation between draw_pctg and win_pctg is significant and positive.
+   - The team has the capability to improve their draw techniques with appropriate training and strategy adjustments.
+   - Other factors remain constant, and improvements in draw_pctg directly translate to performance enhancements.
+
+7. **Confidence Level**: Medium
+   - The recommendation assumes a positive correlation based on general sports analytics principles but would be more accurate with specific correlation calculations from the complete dataset.
+   - Confidence in the recommendation could be improved with more detailed statistical analysis and historical data showing the impact of similar improvements in other teams.
+
+This approach focuses on leveraging possession control, a fundamental aspect of lacrosse, to achieve more wins by improving the team's ability to control the game's pace and opportunities.",4610,1,2025-07-30T22:11:27.599379,0.8,3344,True,True
+11,complex,Identify the most 'unlucky' team: Which team has significantly better offensive and defensive statistics than their win percentage would suggest?,Campbell (Big South),"To identify the most 'unlucky' team, we need to find a team that has strong offensive and defensive statistics but a relatively low win percentage. This suggests that despite performing well in games, the outcomes (wins) are not reflective of their performance levels.
+
+### Step-by-Step Analysis:
+
+1. **Define Key Metrics**:
+   - **Offensive Strength**: Goals per game (higher is better).
+   - **Defensive Strength**: Goals allowed per game (lower is better).
+   - **Win Percentage**: Higher values indicate more wins.
+
+2. **Calculate Average Values**:
+   - Calculate the average goals per game and goals allowed per game across all teams to establish a baseline for comparison.
+
+3. **Identify Teams with Above Average Offense and Defense**:
+   - Teams with goals per game above the average and goals allowed per game below the average are considered strong in both offense and defense.
+
+4. **Compare with Win Percentage**:
+   - Identify teams from the above filter whose win percentage is significantly below the average win percentage of all teams.
+
+### Calculations:
+
+- **Average Goals per Game**:
+  \[
+  \text{Average Goals per Game} = \frac{\sum \text{Goals per Game of all teams}}{\text{Number of Teams}}
+  \]
+- **Average Goals Allowed per Game**:
+  \[
+  \text{Average Goals Allowed per Game} = \frac{\sum \text{Goals Allowed per Game of all teams}}{\text{Number of Teams}}
+  \]
+- **Average Win Percentage**:
+  \[
+  \text{Average Win Percentage} = \frac{\sum \text{Win Percentage of all teams}}{\text{Number of Teams}}
+  \]
+
+### Assumptions:
+- Teams with above-average goals per game and below-average goals allowed per game are considered strong both offensively and defensively.
+- A significant difference is considered if the win percentage is below the average minus one standard deviation.
+
+### Confidence Level:
+- **Medium**: The analysis assumes that the win percentage should directly correlate with offensive and defensive performance, which might not always capture the nuances of each game or the strength of the schedule.
+
+### Execution:
+- Calculate the averages and identify the team(s) that fit the criteria of being 'unlucky'.
+
+```python
+import pandas as pd
+import numpy as np
+
+# Sample data in a dictionary (shortened for brevity in execution)
+data = {
+    ""Team"": [""Team A"", ""Team B"", ""Team C"", ""Team D""],
+    ""win_pctg"": [0.500, 0.300, 0.700, 0.400],
+    ""goals_per_game"": [14, 13, 16, 12],
+    ""goals_allowed_per_game"": [8, 9, 7, 11]
+}
+
+# Create DataFrame
+df = pd.DataFrame(data)
+
+# Calculate averages
+avg_goals_per_game = df['goals_per_game'].mean()
+avg_goals_allowed_per_game = df['goals_allowed_per_game'].mean()
+avg_win_pctg = df['win_pctg'].mean()
+
+# Standard deviation of win percentage
+std_win_pctg = df['win_pctg'].std()
+
+# Filter teams with strong offense and defense but low win percentage
+unlucky_teams = df[(df['goals_per_game'] > avg_goals_per_game) & 
+                   (df['goals_allowed_per_game'] < avg_goals_allowed_per_game) & 
+                   (df['win_pctg'] < avg_win_pctg - std_win_pctg)]
+
+unlucky_teams
+```
+
+This code snippet is a simplified example to demonstrate the approach. In practice, you would use the full dataset and perform the calculations accordingly. The team(s) listed in `unlucky_teams` would be considered 'unlucky' based on the criteria defined.",5232,1,2025-07-30T22:11:45.641274,0.8,3315,True,True
+12,complex,"For a team currently at 0.400 win percentage, should they prioritize improving their worst-performing metric or enhancing their best-performing metric? Provide data-driven reasoning.",Requires strategic analysis of correlation patterns and improvement potential,"To answer whether a team with a 0.400 win percentage should focus on improving their worst-performing metric or enhancing their best-performing metric, we need to analyze the correlation between each metric and the win percentage across all teams. This will help us understand which metrics have the strongest influence on winning games.
+
+### Step-by-Step Analysis:
+
+1. **Identify Teams with Similar Win Percentage**:
+   We first identify teams with win percentages around 0.400 to understand their performance metrics. From the dataset:
+   - Dartmouth (Ivy League): 0.400, Goals Allowed Per Game = 12.33
+   - Lafayette (Patriot): 0.118, Goals Allowed Per Game = 14.29
+   - Oregon (Pac-12): 0.294, Goals Allowed Per Game = 12.76
+
+2. **Calculate Average Metrics for These Teams**:
+   - Average Goals Allowed Per Game = (12.33 + 14.29 + 12.76) / 3 = 13.13
+
+3. **Compare with Overall Dataset**:
+   - Calculate the average Goals Allowed Per Game for all teams:
+     - Sum of Goals Allowed Per Game for all teams / Number of teams
+     - This calculation would require summing up all the values from the dataset, which is not feasible to do manually here, but we assume it's around 11 based on scanning the data.
+
+4. **Correlation Analysis**:
+   - We need to determine the correlation between win percentage and each metric. For simplicity, let's focus on Goals Allowed Per Game, as it's a common defensive metric.
+   - Hypothetically, if we calculate the correlation coefficient (Pearson's r) between win percentage and goals allowed per game, we might find a value like -0.6, indicating a moderate to strong negative correlation (as goals allowed increases, win percentage decreases).
+
+5. **Decision on Metric to Improve**:
+   - Given the negative correlation, reducing goals allowed per game should theoretically improve the win percentage. This suggests focusing on the worst-performing metric (in this case, defensive metrics like goals allowed per game) could be more beneficial than enhancing the best-performing metric.
+
+### Assumptions:
+- The correlation between win percentage and goals allowed per game is negative and significant based on general sports analytics principles.
+- The average goals allowed per game for all teams is estimated without exact calculation due to data constraints.
+
+### Confidence Level:
+- Medium: The analysis is based on assumed values and general trends observed in the dataset. Exact calculations and more detailed statistical analysis (like actual correlation coefficients) would increase confidence.
+
+### Conclusion:
+For a team with a 0.400 win percentage, focusing on improving their worst-performing metric, particularly in defensive areas such as goals allowed per game, is likely to be more beneficial for improving their win percentage based on the assumed negative correlation between these metrics and winning.",4087,1,2025-07-30T22:12:00.058847,1.0,2856,True,True
+13,complex,"Using team performance metrics, rank the conferences by competitive strength and identify which conference shows the most parity.","{('win_pctg', 'mean'): {'AAC': 0.54, 'ACC': 0.594, 'ASUN': 0.449, 'America East': 0.511, 'Atlantic 10': 0.424, 'Big East': 0.579, 'Big South': 0.428, 'Big Ten': 0.588, 'CAA': 0.512, 'Independent': 0.571, 'Ivy League': 0.481, 'MAAC': 0.495, 'MAC': 0.343, 'MPSF': 0.375, 'NEC': 0.373, 'PA': 0.625, 'Pac-12': 0.47, 'Patriot': 0.503}, ('win_pctg', 'std'): {'AAC': 0.245, 'ACC': 0.215, 'ASUN': 0.22, 'America East': 0.124, 'Atlantic 10': 0.292, 'Big East': 0.248, 'Big South': 0.2, 'Big Ten': 0.205, 'CAA': 0.188, 'Independent': nan, 'Ivy League': 0.163, 'MAAC': 0.178, 'MAC': 0.195, 'MPSF': nan, 'NEC': 0.204, 'PA': nan, 'Pac-12': 0.21, 'Patriot': 0.241}, ('win_pctg', 'count'): {'AAC': 7, 'ACC': 10, 'ASUN': 6, 'America East': 7, 'Atlantic 10': 10, 'Big East': 7, 'Big South': 10, 'Big Ten': 7, 'CAA': 8, 'Independent': 1, 'Ivy League': 8, 'MAAC': 9, 'MAC': 7, 'MPSF': 1, 'NEC': 5, 'PA': 1, 'Pac-12': 6, 'Patriot': 10}, ('goals_per_game', 'mean'): {'AAC': 11.597, 'ACC': 13.423, 'ASUN': 12.512, 'America East': 12.579, 'Atlantic 10': 11.78, 'Big East': 12.23, 'Big South': 11.342, 'Big Ten': 12.243, 'CAA': 11.545, 'Independent': 14.71, 'Ivy League': 12.129, 'MAAC': 11.137, 'MAC': 10.993, 'MPSF': 9.62, 'NEC': 9.558, 'PA': 13.25, 'Pac-12': 11.828, 'Patriot': 12.526}, ('goals_allowed_per_game', 'mean'): {'AAC': 10.81, 'ACC': 10.82, 'ASUN': 12.077, 'America East': 12.431, 'Atlantic 10': 12.908, 'Big East': 12.217, 'Big South': 13.975, 'Big Ten': 10.493, 'CAA': 11.601, 'Independent': 12.57, 'Ivy League': 12.154, 'MAAC': 11.446, 'MAC': 13.599, 'MPSF': 12.06, 'NEC': 11.856, 'PA': 11.19, 'Pac-12': 11.693, 'Patriot': 12.343}}","To rank the conferences by competitive strength and identify which conference shows the most parity, we will use the following steps:
+
+### Step 1: Calculate Average Performance Metrics for Each Conference
+We will calculate the average win percentage, goals per game, goals allowed per game, and shot percentage for each conference. These metrics will help us assess the overall strength and competitiveness of each conference.
+
+### Step 2: Determine Competitive Strength
+The competitive strength of a conference can be inferred from the average win percentage and the average goal differential (goals per game minus goals allowed per game). Higher values in these metrics typically indicate a stronger conference.
+
+### Step 3: Assess Parity Within Conferences
+Parity within a conference can be assessed by the standard deviation of the win percentages within that conference. A lower standard deviation indicates that teams within the conference are more evenly matched, suggesting higher parity.
+
+### Assumptions
+- The provided data is representative of the overall performance of the teams and conferences.
+- Metrics like win percentage and goal differential are adequate indicators of competitive strength.
+- Standard deviation of win percentages is a reasonable measure of parity.
+
+### Calculations and Analysis
+**Extracting Data for Each Conference:**
+We will group teams by their conference and calculate the average of the metrics mentioned.
+
+**Example Calculation for the ACC:**
+- Teams: Notre Dame, Duke, Clemson, North Carolina, Virginia Tech, Syracuse, Virginia, Boston College, Louisville, Pittsburgh
+- Average Win Percentage: (0.714 + 0.444 + 0.667 + 0.762 + 0.526 + 0.857 + 0.611 + 0.826 + 0.294 + 0.235) / 10 = 0.5936
+- Average Goals Per Game: (15.43 + 13.5 + 15.56 + 14.1 + 12.42 + 16.05 + 14.83 + 14.22 + 9.65 + 8.47) / 10 = 13.873
+- Average Goals Allowed Per Game: (9.43 + 11.56 + 8.72 + 8.43 + 10.16 + 9.57 + 13.33 + 9.17 + 13.71 + 14.12) / 10 = 10.81
+- Average Goal Differential: 13.873 - 10.81 = 3.063
+- Standard Deviation of Win Percentages: Calculation needed for actual values.
+
+**Repeat for Other Conferences and Compare:**
+- Calculate these metrics for all conferences.
+- Rank them by average win percentage and goal differential for competitive strength.
+- Rank them by the standard deviation of win percentages for parity.
+
+### Confidence Level
+Medium - The analysis is based on a subset of available metrics and assumes that the selected metrics adequately represent competitive strength and parity. More comprehensive analysis with additional metrics could provide a more nuanced understanding.
+
+### Conclusion
+After performing these calculations for all conferences, we can rank them by the calculated average win percentage and goal differential to determine competitive strength. The conference with the lowest standard deviation in win percentages will be identified as having the most parity. This approach provides a structured way to evaluate and compare the conferences based on the available data.",3663,1,2025-07-30T22:12:17.362435,0.6,3036,True,True
+14,complex,"A coach has limited practice time - should they spend 70% on offense, 70% on defense, or 50/50 split? Use correlation analysis and diminishing returns theory.",Requires analysis of offensive vs defensive correlation with winning,"To address the question of how a coach should allocate practice time between offense and defense, we can analyze the provided dataset to understand the relationship between winning percentage (win_pctg) and other performance metrics. Specifically, we can look at draw percentage (draw_pctg) and shot percentage (shot_pctg) as proxies for offensive and defensive performance respectively. Here's how we can proceed:
+
+### Step-by-Step Analysis:
+
+1. **Correlation Analysis**:
+   - Calculate the correlation between win_pctg and draw_pctg.
+   - Calculate the correlation between win_pctg and shot_pctg.
+
+2. **Interpretation of Correlation**:
+   - A higher positive correlation between win_pctg and draw_pctg would suggest a stronger relationship between winning and offensive metrics.
+   - A higher positive correlation between win_pctg and shot_pctg would suggest a stronger relationship between winning and defensive metrics.
+
+3. **Decision on Practice Time Allocation**:
+   - Based on which correlation is stronger, advise on the allocation of practice time.
+
+### Calculations:
+
+Using Python or a statistical tool, we can calculate the Pearson correlation coefficient for the given metrics. Here, I'll describe the process assuming the use of Python with pandas and numpy libraries:
+
+```python
+import pandas as pd
+import numpy as np
+
+# Sample data creation
+data = {
+    'Team': ['Loyola Maryland (Patriot)', 'Notre Dame (ACC)', 'Richmond (Atlantic 10)', ...],
+    'win_pctg': [0.864, 0.714, 0.81, ...],
+    'draw_pctg': [0.69, 0.623, 0.617, ...],
+    'shot_pctg': [0.482, 0.458, 0.461, ...]
+}
+
+df = pd.DataFrame(data)
+
+# Calculating Pearson correlation
+correlation_win_draw = np.corrcoef(df['win_pctg'], df['draw_pctg'])[0, 1]
+correlation_win_shot = np.corrcoef(df['win_pctg'], df['shot_pctg'])[0, 1]
+```
+
+### Assumptions:
+- **Relevance of Metrics**: We assume that draw_pctg and shot_pctg are good proxies for offensive and defensive performance respectively.
+- **Linear Relationships**: The correlation analysis assumes linear relationships between the variables.
+
+### Confidence Level:
+- **Medium**: While correlation provides insights, it does not imply causation. Additionally, the effectiveness of practice time allocation might depend on other factors not considered in this analysis, such as player skill levels, specific weaknesses in the team, and more.
+
+### Conclusion:
+Based on the calculated correlations:
+- If `correlation_win_draw` > `correlation_win_shot`, allocate more time to offense (70% offense, 30% defense).
+- If `correlation_win_shot` > `correlation_win_draw`, allocate more time to defense (70% defense, 30% offense).
+- If both correlations are similar, a balanced approach (50/50) might be optimal.
+
+This approach provides a data-driven recommendation but should be tailored further based on specific team needs and additional metrics from the full dataset.",3172,1,2025-07-30T22:12:35.166454,0.6,2882,True,True
+15,complex,"Based on the statistical patterns, what minimum thresholds in 3 key metrics would a team need to achieve to have an 80% probability of making playoffs?","{'goals_per_game': np.float64(13.16), 'goals_allowed_per_game': np.float64(10.458), 'shot_pctg': np.float64(0.42919999999999997)}","To determine the minimum thresholds in three key metrics that would give a team an 80% probability of making the playoffs, we can analyze the data provided and focus on teams with a win percentage (win_pctg) of 0.800 or higher, as this is a strong indicator of playoff contention. We will look at goals per game, goals allowed per game, and draw percentage as the key metrics.
+
+### Step-by-Step Analysis:
+
+1. **Filter Teams with High Win Percentage**:
+   - First, filter out teams with a win percentage of 0.800 or higher. This will help us focus on the top-performing teams which are likely playoff contenders.
+
+2. **Calculate Minimum Thresholds for Selected Metrics**:
+   - For each of the three metrics (goals per game, goals allowed per game, draw percentage), calculate the minimum value among the filtered teams.
+
+3. **Assumptions**:
+   - We assume that the teams with a win percentage of 0.800 or higher are representative of playoff contenders.
+   - We assume that goals per game, goals allowed per game, and draw percentage are critical metrics that significantly influence a team's success based on common lacrosse knowledge.
+   - The dataset provided is assumed to be complete and accurate for the current season.
+
+4. **Confidence Level**:
+   - The confidence level in this analysis is medium. While the approach is statistically sound, lacrosse playoff contention can also be influenced by factors not considered in this analysis such as strength of schedule, injuries, and other metrics not analyzed here.
+
+### Calculations:
+
+First, filter the dataset for teams with `win_pctg >= 0.800`:
+
+- Denver (Big East), 0.957
+- Northwestern (Big Ten), 0.955
+- Loyola Maryland (Patriot), 0.864
+- James Madison (AAC), 0.864
+- Richmond (Atlantic 10), 0.81
+- Florida (AAC), 0.81
+- Massachusetts (Atlantic 10), 0.842
+- Boston College (ACC), 0.826
+
+Now, find the minimum values among these teams for the selected metrics:
+
+- **Goals Per Game**: 
+  - Minimum among high-performing teams = 11.91 (Denver)
+- **Goals Allowed Per Game**: 
+  - Minimum among high-performing teams = 6.22 (Denver)
+- **Draw Percentage**:
+  - Minimum among high-performing teams = 0.554 (Florida)
+
+### Conclusion:
+
+To have an 80% probability of making the playoffs, a team should aim to meet or exceed the following thresholds based on the analysis of the current dataset:
+- **Goals Per Game**: At least 11.91
+- **Goals Allowed Per Game**: No more than 6.22
+- **Draw Percentage**: At least 0.554
+
+These thresholds provide a benchmark based on the performance of the top teams in the dataset. Adjustments might be necessary based on changes in league dynamics or additional metrics.",4106,1,2025-07-30T22:12:49.109567,0.4,2652,True,True
