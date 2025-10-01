@@ -1,0 +1,132 @@
+NCAA DIVISION 1 WOMEN'S LACROSSE 2022-2023 SEASON ANALYSIS
+============================================================
+
+
+DATASET OVERVIEW
+--------------------
+Total number of teams: 120
+Number of variables: 18
+Variables: Team, draw_pctg, turnovers_per_game, sog_per_game, assists_per_game, caused_turnovers_per_game, clearing_pctg, draw_controls_per_game, fouls_per_game, free_position_pctg, ground_balls_per_game, points_per_game, save_pctg, goals_allowed_per_game, goals_per_game, shots_per_game, shot_pctg, win_pctg
+
+BASIC DESCRIPTIVE STATISTICS
+------------------------------
+        draw_pctg  turnovers_per_game  sog_per_game  assists_per_game  caused_turnovers_per_game  clearing_pctg  draw_controls_per_game  fouls_per_game  free_position_pctg  ground_balls_per_game  points_per_game   save_pctg  goals_allowed_per_game  goals_per_game  shots_per_game   shot_pctg    win_pctg
+count  120.000000          120.000000    120.000000        120.000000                 119.000000     120.000000              120.000000      119.000000          120.000000             119.000000       120.000000  119.000000              120.000000      120.000000      120.000000  120.000000  120.000000
+mean     0.497892           15.067333     20.765417          5.069333                   7.917647       0.854508               13.630833       18.081597            0.431500              15.903866        16.979667    0.427034               12.067333       11.910250       28.120417    0.421342    0.489675
+std      0.061013            2.123404      2.695019          1.513201                   1.715851       0.048603                1.904297        4.679014            0.059166               1.993793         3.579180    0.044000                2.343079        2.191392        3.559066    0.037646    0.210867
+min      0.334000           10.140000     14.870000          1.620000                   5.060000       0.717000                8.530000        3.500000            0.313000              10.790000         9.250000    0.329000                6.220000        7.000000       20.270000    0.338000    0.000000
+25%      0.453750           13.462500     18.750000          4.045000                   6.670000       0.823250               12.060000       14.830000            0.386500              14.615000        14.090000    0.393500               10.302500       10.355000       25.030000    0.393500    0.328750
+50%      0.496500           15.065000     20.755000          4.945000                   7.780000       0.861500               13.730000       18.110000            0.433500              15.730000        16.700000    0.423000               12.005000       11.895000       28.140000    0.424500    0.500000
+75%      0.536500           16.507500     22.835000          6.060000                   8.810000       0.890500               14.847500       21.245000            0.475000              17.335000        19.320000    0.454000               13.822500       13.425000       30.820000    0.447250    0.632000
+max      0.690000           19.530000     26.750000          9.100000                  14.110000       0.940000               18.710000       30.000000            0.560000              20.630000        25.140000    0.557000               17.570000       16.950000       36.320000    0.508000    0.957000
+
+MISSING VALUES
+---------------
+Team                         0
+draw_pctg                    0
+turnovers_per_game           0
+sog_per_game                 0
+assists_per_game             0
+caused_turnovers_per_game    1
+clearing_pctg                0
+draw_controls_per_game       0
+fouls_per_game               1
+free_position_pctg           0
+ground_balls_per_game        1
+points_per_game              0
+save_pctg                    1
+goals_allowed_per_game       0
+goals_per_game               0
+shots_per_game               0
+shot_pctg                    0
+win_pctg                     0
+
+DATA TYPES
+----------
+Team                          object
+draw_pctg                    float64
+turnovers_per_game           float64
+sog_per_game                 float64
+assists_per_game             float64
+caused_turnovers_per_game    float64
+clearing_pctg                float64
+draw_controls_per_game       float64
+fouls_per_game               float64
+free_position_pctg           float64
+ground_balls_per_game        float64
+points_per_game              float64
+save_pctg                    float64
+goals_allowed_per_game       float64
+goals_per_game               float64
+shots_per_game               float64
+shot_pctg                    float64
+win_pctg                     float64
+
+SKEWNESS
+--------
+draw_pctg                    0.118709
+turnovers_per_game           0.152005
+sog_per_game                -0.036663
+assists_per_game             0.274262
+caused_turnovers_per_game    0.909347
+clearing_pctg               -0.612243
+draw_controls_per_game       0.121526
+fouls_per_game              -0.178732
+free_position_pctg           0.009977
+ground_balls_per_game       -0.134291
+points_per_game              0.129248
+save_pctg                    0.533621
+goals_allowed_per_game       0.056068
+goals_per_game               0.069455
+shots_per_game               0.021661
+shot_pctg                   -0.109824
+win_pctg                     0.011050
+
+KURTOSIS
+--------
+draw_pctg                    0.126719
+turnovers_per_game          -0.569228
+sog_per_game                -0.671909
+assists_per_game            -0.287893
+caused_turnovers_per_game    1.319989
+clearing_pctg               -0.066427
+draw_controls_per_game      -0.248620
+fouls_per_game               0.314066
+free_position_pctg          -0.746761
+ground_balls_per_game       -0.236203
+points_per_game             -0.494705
+save_pctg                    0.155364
+goals_allowed_per_game      -0.492210
+goals_per_game              -0.604142
+shots_per_game              -0.770333
+shot_pctg                   -0.337042
+win_pctg                    -0.629971
+
+TOP PERFORMERS
+-------------
+Highest Win Percentage: Denver (Big East) (0.957)
+Highest Goals Per Game: Northwestern (Big Ten) (16.95)
+Best Shot Percentage: Clemson (ACC) (0.508)
+Best Save Percentage: Wagner (NEC) (0.557)
+Fewest Goals Allowed: Denver (Big East) (6.22)
+
+CORRELATION MATRIX
+-----------------
+                           draw_pctg  turnovers_per_game  sog_per_game  assists_per_game  caused_turnovers_per_game  clearing_pctg  draw_controls_per_game  fouls_per_game  free_position_pctg  ground_balls_per_game  points_per_game  save_pctg  goals_allowed_per_game  goals_per_game  shots_per_game  shot_pctg  win_pctg
+draw_pctg                   1.000000           -0.356054      0.663335          0.606904                   0.216369       0.462867                0.840924        0.072356            0.287793               0.015420         0.662578   0.280258               -0.676198        0.663411        0.663819   0.425707  0.708244
+turnovers_per_game         -0.356054            1.000000     -0.584101         -0.428975                   0.125147      -0.702541               -0.307760       -0.038991           -0.186121               0.236196        -0.536510  -0.218970                0.529634       -0.580258       -0.555201  -0.421691 -0.563753
+sog_per_game                0.663335           -0.584101      1.000000          0.773432                   0.303770       0.592572                0.750875        0.081985            0.340139               0.204819         0.898457   0.228677               -0.583123        0.933817        0.953063   0.593474  0.797423
+assists_per_game            0.606904           -0.428975      0.773432          1.000000                   0.243869       0.494752                0.694710        0.166215            0.219675               0.081762         0.951189   0.251104               -0.519405        0.863795        0.766821   0.701321  0.753156
+caused_turnovers_per_game   0.216369            0.125147      0.303770          0.243869                   1.000000       0.201729                0.103857        0.283306            0.173316               0.632396         0.266773   0.079332               -0.393361        0.267334        0.304586   0.130489  0.398327
+clearing_pctg               0.462867           -0.702541      0.592572          0.494752                   0.201729       1.000000                0.372911       -0.010168            0.262601              -0.054117         0.586529   0.246157               -0.628955        0.616635        0.583746   0.468982  0.627286
+draw_controls_per_game      0.840924           -0.307760      0.750875          0.694710                   0.103857       0.372911                1.000000        0.056537            0.369884              -0.011641         0.777911   0.029105               -0.311540        0.791392        0.741706   0.584765  0.599682
+fouls_per_game              0.072356           -0.038991      0.081985          0.166215                   0.283306      -0.010168                0.056537        1.000000            0.035896               0.021799         0.134159   0.016522               -0.122687        0.104646        0.102597   0.063748  0.222027
+free_position_pctg          0.287793           -0.186121      0.340139          0.219675                   0.173316       0.262601                0.369884        0.035896            1.000000              -0.067760         0.359047   0.164487               -0.217564        0.434763        0.274117   0.526585  0.331893
+ground_balls_per_game       0.015420            0.236196      0.204819          0.081762                   0.632396      -0.054117               -0.011641        0.021799           -0.067760               1.000000         0.089469   0.025861               -0.144487        0.089812        0.210296  -0.107461  0.128382
+points_per_game             0.662578           -0.536510      0.898457          0.951189                   0.266773       0.586529                0.777911        0.134159            0.359047               0.089469         1.000000   0.249495               -0.569962        0.977120        0.880204   0.781413  0.833469
+save_pctg                   0.280258           -0.218970      0.228677          0.251104                   0.079332       0.246157                0.029105        0.016522            0.164487               0.025861         0.249495   1.000000               -0.578153        0.233944        0.199637   0.208305  0.422726
+goals_allowed_per_game     -0.676198            0.529634     -0.583123         -0.519405                  -0.393361      -0.628955               -0.311540       -0.122687           -0.217564              -0.144487        -0.569962  -0.578153                1.000000       -0.572322       -0.585634  -0.354971 -0.810514
+goals_per_game              0.663411           -0.580258      0.933817          0.863795                   0.267334       0.616635                0.791392        0.104646            0.434763               0.089812         0.977120   0.233944               -0.572322        1.000000        0.908659   0.792375  0.841511
+shots_per_game              0.663819           -0.555201      0.953063          0.766821                   0.304586       0.583746                0.741706        0.102597            0.274117               0.210296         0.880204   0.199637               -0.585634        0.908659        1.000000   0.471032  0.796128
+shot_pctg                   0.425707           -0.421691      0.593474          0.701321                   0.130489       0.468982                0.584765        0.063748            0.526585              -0.107461         0.781413   0.208305               -0.354971        0.792375        0.471032   1.000000  0.622812
+win_pctg                    0.708244           -0.563753      0.797423          0.753156                   0.398327       0.627286                0.599682        0.222027            0.331893               0.128382         0.833469   0.422726               -0.810514        0.841511        0.796128   0.622812  1.000000

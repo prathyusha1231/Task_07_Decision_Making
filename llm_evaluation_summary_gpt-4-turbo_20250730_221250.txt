@@ -1,0 +1,125 @@
+LLM EVALUATION SUMMARY
+==================================================
+Model: gpt-4-turbo
+Timestamp: 2025-07-30T22:12:50.116773
+Overall Accuracy: 48.2%
+Total Questions: 15
+Total Tokens Used: 48,861
+First-Try Success Rate: 100.0%
+Shows Reasoning Rate: 100.0%
+Average Response Length: 2551 characters
+
+ACCURACY BY DIFFICULTY LEVEL
+------------------------------
+Complex: 68.0% (5 questions)
+Easy: 50.8% (4 questions)
+Hard: 40.0% (3 questions)
+Medium: 20.0% (3 questions)
+
+DETAILED QUESTION RESULTS
+-------------------------
+
+Question 1 (easy):
+  Question: Which team has the highest win_pctg?
+  Accuracy: 1.00
+  Tokens Used: 1778
+  Attempts: 1
+  Shows Work: Yes
+
+Question 2 (easy):
+  Question: Which team leads in shot_pctg?
+  Accuracy: 1.00
+  Tokens Used: 1793
+  Attempts: 1
+  Shows Work: Yes
+
+Question 3 (easy):
+  Question: What is the median goals_per_game across teams?
+  Accuracy: 0.00
+  Tokens Used: 2392
+  Attempts: 1
+  Shows Work: Yes
+
+Question 4 (easy):
+  Question: Which teams are above the league-average draw_pctg?
+  Accuracy: 0.03
+  Tokens Used: 2046
+  Attempts: 1
+  Shows Work: Yes
+
+Question 5 (medium):
+  Question: Among teams with above-average draw_pctg, which allowed the fewest goals_allowed_per_game?
+  Accuracy: 0.00
+  Tokens Used: 2041
+  Attempts: 1
+  Shows Work: Yes
+
+Question 6 (medium):
+  Question: Is win_pctg more correlated with draw_pctg or shot_pctg?
+  Accuracy: 0.60
+  Tokens Used: 3157
+  Attempts: 1
+  Shows Work: Yes
+
+Question 7 (medium):
+  Question: Which teams have positive (goals_per_game - goals_allowed_per_game) but below-average shot_pctg?
+  Accuracy: 0.00
+  Tokens Used: 3114
+  Attempts: 1
+  Shows Work: Yes
+
+Question 8 (hard):
+  Question: Fit a simple linear model: win_pctg ~ draw_pctg + shot_pctg + turnovers_per_game. Which feature has the largest standardized effect?
+  Accuracy: 0.40
+  Tokens Used: 3994
+  Attempts: 1
+  Shows Work: Yes
+
+Question 9 (hard):
+  Question: If a team raises draw_pctg by 5 percentage points (0.05), how much does the model predict win_pctg changes (holding others constant)?
+  Accuracy: 0.00
+  Tokens Used: 3676
+  Attempts: 1
+  Shows Work: Yes
+
+Question 10 (hard):
+  Question: Recommend one metric to improve for a 'two-more-wins' goal next season; justify with the model and team's current stats.
+  Accuracy: 0.80
+  Tokens Used: 4610
+  Attempts: 1
+  Shows Work: Yes
+
+Question 11 (complex):
+  Question: Identify the most 'unlucky' team: Which team has significantly better offensive and defensive statistics than their win percentage would suggest?
+  Accuracy: 0.80
+  Tokens Used: 5232
+  Attempts: 1
+  Shows Work: Yes
+
+Question 12 (complex):
+  Question: For a team currently at 0.400 win percentage, should they prioritize improving their worst-performing metric or enhancing their best-performing metric? Provide data-driven reasoning.
+  Accuracy: 1.00
+  Tokens Used: 4087
+  Attempts: 1
+  Shows Work: Yes
+
+Question 13 (complex):
+  Question: Using team performance metrics, rank the conferences by competitive strength and identify which conference shows the most parity.
+  Accuracy: 0.60
+  Tokens Used: 3663
+  Attempts: 1
+  Shows Work: Yes
+
+Question 14 (complex):
+  Question: A coach has limited practice time - should they spend 70% on offense, 70% on defense, or 50/50 split? Use correlation analysis and diminishing returns theory.
+  Accuracy: 0.60
+  Tokens Used: 3172
+  Attempts: 1
+  Shows Work: Yes
+
+Question 15 (complex):
+  Question: Based on the statistical patterns, what minimum thresholds in 3 key metrics would a team need to achieve to have an 80% probability of making playoffs?
+  Accuracy: 0.40
+  Tokens Used: 4106
+  Attempts: 1
+  Shows Work: Yes
